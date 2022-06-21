@@ -1,0 +1,526 @@
+// Vitest Snapshot v1
+
+exports[`Switch.vue > change event 1`] = `
+<div
+  class="el-switch is-checked"
+>
+  <input
+    aria-checked="true"
+    aria-disabled="false"
+    class="el-switch__input"
+    false-value="false"
+    name=""
+    role="switch"
+    true-value="true"
+    type="checkbox"
+  />
+  <!--v-if-->
+  <span
+    class="el-switch__core"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Switch.vue > create 1`] = `
+<div
+  class="el-switch"
+  style="--el-switch-on-color: #0f0; --el-switch-off-color: #f00;"
+>
+  <input
+    aria-checked="false"
+    aria-disabled="false"
+    class="el-switch__input"
+    false-value="false"
+    name=""
+    role="switch"
+    true-value="true"
+    type="checkbox"
+  />
+  <span
+    class="el-switch__label el-switch__label--left is-active"
+  >
+    <!--v-if-->
+    <span
+      aria-hidden="false"
+    >
+      off
+    </span>
+  </span>
+  <span
+    class="el-switch__core"
+    style="width: 100px;"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <span
+    class="el-switch__label el-switch__label--right"
+  >
+    <!--v-if-->
+    <span
+      aria-hidden="true"
+    >
+      on
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Switch.vue > default switch active-value is false 1`] = `
+<div
+  class="el-switch is-checked"
+>
+  <input
+    aria-checked="true"
+    aria-disabled="false"
+    class="el-switch__input"
+    false-value="true"
+    name=""
+    role="switch"
+    true-value="false"
+    type="checkbox"
+  />
+  <!--v-if-->
+  <span
+    class="el-switch__core"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Switch.vue > disabled switch should not respond to user click 1`] = `
+<div
+  class="el-switch is-disabled is-checked"
+>
+  <input
+    aria-checked="true"
+    aria-disabled="true"
+    class="el-switch__input"
+    disabled=""
+    false-value="false"
+    name=""
+    role="switch"
+    true-value="true"
+    type="checkbox"
+  />
+  <!--v-if-->
+  <span
+    class="el-switch__core"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Switch.vue > disabled switch should not respond to user click 2`] = `
+<div
+  class="el-switch is-disabled is-checked"
+>
+  <input
+    aria-checked="true"
+    aria-disabled="true"
+    class="el-switch__input"
+    disabled=""
+    false-value="false"
+    id="ID"
+    name=""
+    role="switch"
+    true-value="true"
+    type="checkbox"
+  />
+  <!--v-if-->
+  <span
+    class="el-switch__core"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Switch.vue > expand switch value 1`] = `
+<div
+  class="el-switch is-checked"
+>
+  <input
+    aria-checked="true"
+    aria-disabled="false"
+    class="el-switch__input"
+    false-value="0"
+    name=""
+    role="switch"
+    true-value="100"
+    type="checkbox"
+  />
+  <!--v-if-->
+  <span
+    class="el-switch__core"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Switch.vue > inline prompt 1`] = `
+<div
+  class="el-switch"
+  style="--el-switch-on-color: #0f0; --el-switch-off-color: #f00;"
+>
+  <input
+    aria-checked="false"
+    aria-disabled="false"
+    class="el-switch__input"
+    false-value="false"
+    name=""
+    role="switch"
+    true-value="true"
+    type="checkbox"
+  />
+  <!--v-if-->
+  <span
+    class="el-switch__core"
+    style="width: 100px;"
+  >
+    <div
+      class="el-switch__inner"
+    >
+      
+      <span
+        aria-hidden="true"
+        class="is-text is-hide"
+      >
+        on
+      </span>
+      <span
+        aria-hidden="false"
+        class="is-text is-show"
+      >
+        off
+      </span>
+      
+    </div>
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Switch.vue > model-value is the single source of truth 1`] = `
+<div
+  class="el-switch is-checked"
+>
+  <input
+    aria-checked="true"
+    aria-disabled="false"
+    class="el-switch__input"
+    false-value="false"
+    name=""
+    role="switch"
+    true-value="true"
+    type="checkbox"
+  />
+  <!--v-if-->
+  <span
+    class="el-switch__core"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Switch.vue > sets checkbox value 1`] = `
+<div
+  class="el-switch"
+>
+  <input
+    aria-checked="false"
+    aria-disabled="false"
+    class="el-switch__input"
+    false-value="false"
+    name=""
+    role="switch"
+    true-value="true"
+    type="checkbox"
+  />
+  <!--v-if-->
+  <span
+    class="el-switch__core"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Switch.vue > size 1`] = `
+<div
+  class="el-switch el-switch--large"
+>
+  <input
+    aria-checked="false"
+    aria-disabled="false"
+    class="el-switch__input"
+    false-value="false"
+    name=""
+    role="switch"
+    true-value="true"
+    type="checkbox"
+  />
+  <!--v-if-->
+  <span
+    class="el-switch__core"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Switch.vue > switch with icons 1`] = `
+<div
+  class="el-switch"
+>
+  <input
+    aria-checked="false"
+    aria-disabled="false"
+    class="el-switch__input"
+    false-value="false"
+    name=""
+    role="switch"
+    true-value="true"
+    type="checkbox"
+  />
+  <span
+    class="el-switch__label el-switch__label--left is-active"
+  >
+    <i
+      class="el-icon"
+    >
+      
+      <svg
+        viewBox="0 0 1024 1024"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m466.752 512-90.496-90.496a32 32 0 0 1 45.248-45.248L512 466.752l90.496-90.496a32 32 0 1 1 45.248 45.248L557.248 512l90.496 90.496a32 32 0 1 1-45.248 45.248L512 557.248l-90.496 90.496a32 32 0 0 1-45.248-45.248L466.752 512z"
+          fill="currentColor"
+        />
+        <path
+          d="M512 896a384 384 0 1 0 0-768 384 384 0 0 0 0 768zm0 64a448 448 0 1 1 0-896 448 448 0 0 1 0 896z"
+          fill="currentColor"
+        />
+      </svg>
+      
+    </i>
+    <!--v-if-->
+  </span>
+  <span
+    class="el-switch__core"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <span
+    class="el-switch__label el-switch__label--right"
+  >
+    <i
+      class="el-icon"
+    >
+      
+      <svg
+        viewBox="0 0 1024 1024"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M704 192h160v736H160V192h160.064v64H704v-64zM311.616 537.28l-45.312 45.248L447.36 763.52l316.8-316.8-45.312-45.184L447.36 673.024 311.616 537.28zM384 192V96h256v96H384z"
+          fill="currentColor"
+        />
+      </svg>
+      
+    </i>
+    <!--v-if-->
+  </span>
+</div>
+`;
+
+exports[`Switch.vue > tabindex 1`] = `
+<div
+  class="el-switch"
+>
+  <input
+    aria-checked="false"
+    aria-disabled="false"
+    class="el-switch__input"
+    false-value="false"
+    name=""
+    role="switch"
+    tabindex="0"
+    true-value="true"
+    type="checkbox"
+  />
+  <!--v-if-->
+  <span
+    class="el-switch__core"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Switch.vue > value correctly update 1`] = `
+<div
+  class="el-switch is-checked"
+  style="--el-switch-on-color: #0f0; --el-switch-off-color: #f00;"
+>
+  <input
+    aria-checked="true"
+    aria-disabled="false"
+    class="el-switch__input"
+    false-value="false"
+    name=""
+    role="switch"
+    true-value="true"
+    type="checkbox"
+  />
+  <!--v-if-->
+  <span
+    class="el-switch__core"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Switch.vue > value correctly update 3`] = `
+<div
+  class="el-switch"
+  style="--el-switch-on-color: #0f0; --el-switch-off-color: #f00;"
+>
+  <input
+    aria-checked="false"
+    aria-disabled="false"
+    class="el-switch__input"
+    false-value="false"
+    id="ID"
+    name=""
+    role="switch"
+    true-value="true"
+    type="checkbox"
+  />
+  <!--v-if-->
+  <span
+    class="el-switch__core"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <!--v-if-->
+</div>
+`;
+
+exports[`Switch.vue > value correctly update 4`] = `
+<div
+  class="el-switch is-checked"
+  style="--el-switch-on-color: #0f0; --el-switch-off-color: #f00;"
+>
+  <input
+    aria-checked="true"
+    aria-disabled="false"
+    class="el-switch__input"
+    false-value="false"
+    id="ID"
+    name=""
+    role="switch"
+    true-value="true"
+    type="checkbox"
+  />
+  <!--v-if-->
+  <span
+    class="el-switch__core"
+  >
+    <!--v-if-->
+    <div
+      class="el-switch__action"
+    >
+      <!--v-if-->
+    </div>
+  </span>
+  <!--v-if-->
+</div>
+`;
